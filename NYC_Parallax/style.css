@@ -1,0 +1,33 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+#top-container, #mid-pic-cont, #bot-pic-cont{
+    min-height: 937px;
+    background-image: url("/NYC_Parallax/images/Manhattan.jfif");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    opacity: 0.7;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+h1{
+    background-color: black;
+    color: white;
+}
+#top-text-cont, #mid-text-cont, #bot-text-cont{
+    padding: 30px;
+    text-align: center;
+    color: white;
+    background-color: rgb(63, 58, 58);
+    font-family: "Lato", sans-serif;
+}
+#mid-pic-cont{
+    background-image: url("/NYC_Parallax/images/new-york-park-central-park.jpg");
+}
+#bot-pic-cont{
+    background-image: url("/NYC_Parallax/images/BB_Suset-1-of-1.jpg");
+}
