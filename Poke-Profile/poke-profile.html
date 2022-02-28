@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="poke-profile.css">
+    <title>Pokémon</title>
+</head>
+<body>
+    <div id="main-container">
+        <div id="header-container">
+            <div id="header">
+                <ul>
+                    <li><a onmouseover="turnred(this)" onmouseleave="removered(this)" href="https://www.pokemon.com/us/">Pokémon</a></h1>
+                    <li><a onmouseover="turnblue(this)" onmouseleave="removeblue(this)" href="https://pokemon.fandom.com/wiki/Types">Type list</a></li>
+                    <li><a onmouseover="turngreen(this)" onmouseleave="removegreen(this)" href="https://bulbapedia.bulbagarden.net/wiki/Legendary_Pok%C3%A9mon">Legendaries</a></li>
+                    <li><a onmouseover="turnpurple(this)" onmouseleave="removepurple(this)" href="https://bulbapedia.bulbagarden.net/wiki/Region#:~:text=Eight%20regions%20have%20appeared%20in,Most%20regions%20are%20structured%20similarly.">Regions</a></li>
+                    <li><input type="text" placeholder="search any pokemon"></li>
+                </ul>
+            </div>
+        </div>
+        <div id="content-container">
+            <div id="top-content">
+                <video onmouseover="play(this)" onmouseout="pause(this)" src="./images/Y2Mate.is - Pikachu Moments ♥-GyJPzwM__v4-1080p-1646036901276.mp4" controls muted></video>
+            </div>
+            <div id="bot-content">
+
+            </div>
+        </div>
+    </div>
+    <script src="poke-profile.js"></script>
+</body>
+</html>
