@@ -26,8 +26,8 @@ h1{
     font-family: "Lato", sans-serif;
 }
 #mid-pic-cont{
-    background-image: url("/NYC_Parallax/images/new-york-park-central-park.jpg");
+    background-image: url("./images/new-york-park-central-park.jpg");
 }
 #bot-pic-cont{
-    background-image: url("/NYC_Parallax/images/BB_Suset-1-of-1.jpg");
+    background-image: url("./images/BB_Suset-1-of-1.jpg");
 }
