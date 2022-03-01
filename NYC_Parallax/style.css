@@ -4,7 +4,7 @@
 }
 #top-container, #mid-pic-cont, #bot-pic-cont{
     min-height: 937px;
-    background-image: url("/NYC_Parallax/images/Manhattan.jfif");
+    background-image: url("./images/Manhattan.jfif");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
