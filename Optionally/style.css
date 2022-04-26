@@ -1,0 +1,89 @@
+.nav-bar {
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    background-color: slategray;
+    color: whitesmoke;
+    padding: 0px 15px;
+
+}
+.nav-bar h1 {
+    padding-bottom: 15px;
+    font-size: 60px;
+    color: goldenrod;
+    font-family: 'Millenial Script';
+}
+
+.nav-cont {
+    width: 700px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-right: 120px;
+
+}
+
+a[href="homepage.html"] {
+    text-decoration: none;
+    text-decoration-color: goldenrod;
+    color: goldenrod;
+}
+
+a[href="userpersonal.html"], a[href="challenges.html"],a[href="createoptions.html"] {
+    text-decoration: none;
+    text-decoration-color: whitesmoke;
+    color: whitesmoke;
+    font-family: 'hotabe';
+    font-size: 40px;
+
+}
+
+
+.navLogin [alt="user-circle"], [alt="options"], [alt*="search"]{
+    height: 40px;
+    width: 40px;
+    padding: 10px;
+    border-radius: 50%;
+
+
+}
+
+/*-------------- Profile information ------------*/
+
+#top_container{
+    display: flex;
+    
+}
+#profile_picture > img{
+    width: 300px;
+    height: 300px;
+    border: 1px solid black;
+}
+#profile_desc{
+    height: 200px;
+    padding: 50px;
+    border: 1px solid black;
+}
+#bot_container{
+    display: flex;
+    justify-content: space-between;
+}
+.profile_info{
+    border: 1px solid black;
+    width: 33%;
+    padding: 10px;
+}
+.profile_info > img{
+    width: 300px;
+    margin-left: 120px;
+    height: 340px;
+}
+.info{
+    margin-bottom:30px;
+}
+.events{
+    margin-top: 80px;
+}

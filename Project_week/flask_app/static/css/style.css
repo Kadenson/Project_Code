@@ -1,0 +1,47 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: black;
+}
+#main_container{
+    display: flex;
+    justify-content: space-between;
+}
+#image > img{
+    padding-top: 50px;
+    padding-left: 50px;
+    width: 700px;
+    height: 750px;
+}
+#about_me{
+    width: 500px;
+    align-content: center;
+    padding-top: 400px;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 25px;
+}
+#about_me > h1{
+    white-space: nowrap;
+}
+#about_me > p{
+    padding-top: 20px;
+    font-size: 20px;
+}
+#yellow{
+    color: red;
+}
+#nav_bar{
+    padding-top: 400px;
+    padding-right: 30px;
+}
+#nav_bar > a{
+    text-decoration: none;
+    color: red;
+}
+.nav_buttons{
+    width: 7px;
+    height: 7px;
+}
