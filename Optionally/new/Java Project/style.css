@@ -1,0 +1,389 @@
+* {
+    margin: 0%;
+    padding: 0px;
+}
+
+.nav-bar {
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    background-color: slategray;
+    color: whitesmoke;
+    padding: 0px 15px;
+
+}
+.nav-bar h1 {
+    padding-bottom: 15px;
+    font-size: 60px;
+    color: goldenrod;
+    font-family: 'Millenial Script';
+}
+
+.nav-cont {
+    width: 700px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-right: 120px;
+
+}
+
+a[href*="homepage.html"] {
+    text-decoration: none;
+    text-decoration-color: goldenrod;
+    color: goldenrod;
+}
+
+a[href*="userpersonal.html"], a[href*="challenges.html"],a[href*="createoptions.html"] {
+    text-decoration: none;
+    text-decoration-color: whitesmoke;
+    color: whitesmoke;
+    font-family: 'hotabe';
+    font-size: 40px;
+
+}
+
+
+.navLogin [alt*="user-circle"], [alt*="options"], [alt*="search"]{
+    height: 40px;
+    width: 40px;
+    padding: 10px;
+    border-radius: 50%;
+
+
+}
+
+#mainContainer {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+
+#Welcome {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    text-align: center;
+}
+
+.welcomeTxtbox {
+    position: absolute;
+    left: 15%;
+    bottom: 10%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.Welcome h1 {
+    color: white;
+    font-weight: 100;
+    font-family: 'Millenial Script', sans-serif;
+    font-size: 200px;
+}
+
+.Welcome p {
+    color: white;
+    font-weight: 100;
+    font-family: 'hotabe', sans-serif;
+    font-size: 100px;
+    text-align: center;
+}
+
+.Welcome video {
+    width: 100%;
+    height: 100%;
+    min-width: 100vh;
+    min-height: 100vh;
+
+}
+
+.Welcome [alt*="logo"] {
+    border-radius: 50%;
+}
+
+
+.how {
+    width: 100%;
+    height: 100vh;
+    min-width: 100vh;
+    min-height: 100vh;
+    position: relative;
+    border: 2px;
+    border-color: black solid;
+    text-align: center;
+}
+
+.how [alt*="howbb"] {
+    width: 100%;
+    height: 100%;
+    min-width: 100vh;
+    min-height: 100vh;
+}
+
+.how h3 {
+    font-size: 150px;
+    font-family: 'HaloHandletter', sans-serif;
+    font-weight: 100;
+    position: absolute;
+    left: 25%;
+    bottom: 80%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    color: ghostwhite;
+}
+
+.how a[href*="Register.html"] button{
+    position: absolute;
+    left: 35%;
+    bottom: 10%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    height: 40px;
+    width: 200px;
+}
+a[href*="optionlist.html"] button{
+    position: absolute;
+    left: 55%;
+    bottom: 10%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    height: 40px;
+    width: 200px;
+    background-color: rosybrown;
+    
+}
+
+/* ------------------------profile------------------------------------ */
+
+
+.profileContainer{
+    display: flex;
+    width: 100%;
+    height: 500px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+.sect-left{
+    height: 500px;
+    width: 455px;
+    margin-right: 45px;
+}
+.profile-box {
+    display: flex;
+    height: 300px;
+    border: 5px;
+    border-style: solid;
+    border-color: lightgrey;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+.bluebox {
+    position: flex;
+    height: 100px;
+    width: 445px;
+    background-color: rgba(23,162,184,255);
+}
+
+.profile-cont {
+    display: flex;
+    height: 200px;
+    flex-direction: column; 
+    padding-left: 5px;
+    row-gap: 4px;
+}
+
+.profile-cont [alt*="jane"] {
+    position: relative;
+    bottom: 20px;
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+}
+
+.con1, .con2, .con3 {
+    margin: 5px;
+}
+
+.profile-box h1 {
+    font-size: 20px;
+}
+
+.con1 [alt*= "map-marker"], .con3 [alt*="gear"]{
+        height: 15px;
+        width: 12px;
+        margin-right: 5px;
+        
+}
+.con1 {
+    display: flex;
+    align-items: center;
+    
+}
+
+.con3 {
+    display: flex;
+    align-items: center;
+}
+
+.edu-box {
+    display: flex;
+    height: 155px;
+    border: 5px;
+    border-style: solid;
+    border-color: lightgrey;
+    flex-direction: column;
+}
+
+.greybox {
+    display:block;
+    width: 445px;
+    height: 45px;
+    background-color: rgba(51,51,51,255);
+    align-content: center;
+    margin-bottom: 20px;
+}
+
+.greybox p {
+    color: whitesmoke;
+    align-self: center;
+    font-size: 25px; 
+    /* ^ */
+}
+
+.ed-con {
+    display: flex;
+    color: black;
+    
+}
+.edu-con .h3, .p {
+    margin-bottom: 15px;
+}
+
+.sect-right{
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+    width: 400px;
+}
+.req-box {
+    display: flex;
+    height: 195px;
+    width: 324px;
+    border: 5px;
+    border-style: solid;
+    border-color: lightgrey;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+.req-bar {
+    display:flex;
+    width: 324px;
+    height: 40px;
+    background-color: rgba(51,51,51,255);
+    justify-content:center;
+    margin-bottom: 20px;
+    align-items: center;
+}
+
+.req-bar p {
+    border: 2px solid; 
+    border-color:black;
+    border-radius: 50%;
+    background-color: lightgray;
+    padding: 3px 6px;
+
+}
+
+.req-con {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    row-gap: 5px;
+}
+
+.T-S [alt*="accept-circle"], [alt*="close-circle"], [alt*="todd-s"] {
+    height: 60px;
+    width: 60px;
+}
+.T-S [alt*= "todd-s"]{
+    border-radius: 50%;
+}
+
+.P-S [alt*="phil-s"], [alt*="accept-circle"], [alt*="close-circle"] {
+    height: 60px;
+    width: 60px;
+} 
+
+.P-S [alt*="phil-s"]{
+    border-radius: 50%;
+}
+
+.T-S, .P-S {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+
+.con-box {
+    display: flex;
+    height: 308px;
+    width: 324px;
+    border: 5px;
+    border-style: solid;
+    border-color: lightgrey;
+    flex-direction: column;
+
+}
+
+.con-bar {
+    display:flex;
+    width: 324px;
+    height: 40px;
+    background-color: rgba(51,51,51,255);
+    justify-content:center;
+    margin-bottom: 6px;
+    align-items: center;
+}
+
+.con-bar p {
+    border: 2px solid; 
+    border-color:black;
+    border-radius: 50%;
+    background-color: lightgray;
+    padding: 5px;
+}
+
+.names img {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+}
+
+.names, .names img {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin: 2px 5px;
+}
+.view h3 {
+    display: flex;
+    color: blue;
+    text-decoration: underline;
+    align-content: center;
+    margin-left: 120px;
+}
