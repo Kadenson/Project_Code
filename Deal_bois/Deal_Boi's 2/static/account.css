@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 body {
-    background-image: url("background.jpg");
+    background-image: url("background2.jpg");
     -webkit-background-size: cover;
     background-size: cover;
     background-position: center center;
@@ -43,7 +43,7 @@ header{
 }
 .nav-area li a{
     transition: .3s;
-    color: black;
+    color: white;
 }
 
 .nav-area li a:hover{
@@ -85,41 +85,82 @@ button{
     opacity: .8;
     border: 2px solid black;
 }
-#main_content{
-    margin: 100px 100px;
-    background-color: white;
-    height: 70%;
-    width: 90%;
-    border: 3px solid black;
-    border-radius: 10px;
-    padding-left: 13px;
-}
-.item_list{
-    background-color: white;
-    height: 20%;
-    width: 99%;
-    border: 3px solid black;
-    border-bottom: 3px solid black;
-    border-right: 0px;
-    border-left: 0px;
-    border-top: 0px;
-    padding: 40px;
+#account_info{
+    margin: auto;
+    height: 80%;
+    width: 60%;
+    padding-top: 30px;
     display: flex;
+    justify-content: space-evenly;
+}
+#left_container{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+#left_container > h1{
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 50px;
+    color: white;
+}
+#wish_list{
+    margin: auto;
+    background-color: white;
+    height: 550px;
+    width: 95%;
+    border-radius: 10px;
+}
+#top_box{
+    border-bottom: 2px solid black;
+    height: 15%;
+    width: 70%;
+    margin-left: 65px;
+    display: flex;
+    justify-content: center;
     align-items: center;
 }
-.item_list > p{
-    word-wrap: normal;
-    display: inline-block;
-    text-align: center;
-    margin-left: 50px;
+#top_box > h1{
+    font-family: 'Poppins', sans-serif;
 }
-.no_border{
-    border-bottom: 0px;
+#right_container{
+    display: flex;
+    flex-direction: column;
+    
 }
-.check_box{
-    border: 2px solid black;
-    border-radius: 5px;
+#account_buttons{
+    background-color: white;
+    height: 50%;
+    width: 300px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#account_buttons > img{
     height: 60px;
-    width: 60px;
-    display: inline-block;
+    width: 90px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.user_button{
+    height: 50px;
+    width: 130px;
+    margin: 10px;
+    background-color: black;
+    color: White;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#logo_name{
+    margin-top: 40px;
+    margin:auto;
+    text-align: center;
+}
+#logo_name > img{
+    height: 100px;
+    width: 100px;
 }

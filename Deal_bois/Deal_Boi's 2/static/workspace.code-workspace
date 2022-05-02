@@ -1,0 +1,25 @@
+{
+	"folders": [
+		{
+			"path": "..\\..\\..\\..\\Java"
+		},
+		{
+			"path": "..\\..\\..\\..\\Python_Stack"
+		},
+		{
+			"path": "..\\..\\.."
+		},
+		{
+			"path": "..\\..\\..\\..\\Algos_Roles"
+		},
+		{
+			"path": "..\\..\\..\\..\\Web_Fundamentals"
+		},
+		{
+			"path": "..\\..\\..\\..\\CodingDojo"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Project_Code"
+	}
+}
